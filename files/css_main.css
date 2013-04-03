@@ -6,9 +6,10 @@
  */
 
 .rex-table tr.separator td,
-.rex-table tr.separator td.rex-icon a  {
+.rex-table tr.separator td.rex-icon a.rex-i-element  {
   background:#DFE9E9;
   color:#DFE9E9;
+  text-indent:0;
 }
 .rex-table tr.separator td:nth-child(n+4) a {
   color:#DFE9E9;
