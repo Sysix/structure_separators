@@ -1,0 +1,25 @@
+/**
+ * structure_separators - be_style Plugin for Redaxo
+ *
+ * @version 0.5.0
+ * @package redaxo 4.3.x/4.4.x/4.5.x
+ */
+
+.rex-table tr.separator td,
+.rex-table tr.separator td.rex-icon a  {
+  background:#DFE9E9;
+  color:#DFE9E9;
+}
+.rex-table tr.separator td:nth-child(n+4) a {
+  color:#DFE9E9;
+}
+.rex-table tr.separator td:hover,
+.rex-table tr.separator td a:hover {
+  color:gray;
+}
+.rex-table tr.separator td:nth-child(2) a,
+.rex-table tr.separator td:nth-child(3) a {
+  color:black;
+  font-weight:bold;
+}
+

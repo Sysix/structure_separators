@@ -1,0 +1,15 @@
+h2. structure_separators
+
+Ein @be_style@ Plugin um Kategorien in der Structure optisch als "Trenner" umzustylen.
+
+h4. Settings
+
+Kategorienamen mit dem string @sperator:@ beginnen lassen, fertig.
+
+h4. Einschränkungen
+
+* absolut beta.. ;)
+
+h2. Screenshots
+
+!http://rexdev.de/index.php?rex_img_type=github_readme&rex_img_file=lnk_be_style_plugin_structure_separator.png!
