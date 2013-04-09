@@ -70,6 +70,9 @@ $REX['ADDON']['supportpage'][$mypage] = 'forum.redaxo.de';
 if(rex_request('page','string')=='structure'){
   rex_register_extension('OUTPUT_FILTER',
     function($params) use($REX){
+      if(!isset($params['subject']) || $params['subject']==''){
+        return;
+      }
       $dom = new DOMDocument();
       $dom->loadHTML($params['subject']);
       $xpath = new DOMXpath($dom);
@@ -78,7 +81,6 @@ if(rex_request('page','string')=='structure'){
         foreach ($TRs as $TR) {
           $TDs = $TR->childNodes;
           foreach ($TDs as $TD) {
-            #if(preg_match('/separator:.*/',$TD->nodeValue)){
             if(substr($TD->nodeValue,0,10) == 'separator:'){
               #$TR->setAttribute('class','separator '.strtolower(preg_replace('/[^a-z-]/i','',$TD->nodeValue)));
               $TR->setAttribute('class','separator');
