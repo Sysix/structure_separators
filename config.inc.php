@@ -2,7 +2,7 @@
 /**
  * structure_separators - be_style Plugin for Redaxo
  *
- * @version 0.5.0
+ * @version 0.5.1
  * @package redaxo 4.3.x/4.4.x/4.5.x
  */
 
@@ -13,7 +13,7 @@ if(!$REX['REDAXO']){
 
 $mypage = 'structure_separators';
 
-$REX['ADDON']['version'][$mypage]     = '0.5.0';
+$REX['ADDON']['version'][$mypage]     = '0.5.1';
 $REX['ADDON']['author'][$mypage]      = 'jdlx';
 $REX['ADDON']['supportpage'][$mypage] = 'forum.redaxo.de';
 
