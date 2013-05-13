@@ -4,7 +4,7 @@ Ein @be_style@ Plugin um Kategorien in der Structure optisch als "Trenner" umzus
 
 h4. Settings
 
-Kategorienamen mit dem string @sperator:@ beginnen lassen, fertig.
+Kategorienamen mit dem string @separator:@ beginnen lassen, fertig.
 
 h4. Einschränkungen
 
