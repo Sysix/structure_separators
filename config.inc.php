@@ -76,7 +76,7 @@ if(rex_request('page','string')=='structure'){
       $dom = new DOMDocument();
       $dom->loadHTML($params['subject']);
       $xpath = new DOMXpath($dom);
-      $TRs = $xpath->query(".//*[@id='rex-output']/table[1]/tbody/tr");
+      $TRs = $xpath->query(".//*[@id='rex-output']/table/tbody/tr");
       if (!is_null($TRs)) {
         foreach ($TRs as $TR) {
           $TDs = $TR->childNodes;
